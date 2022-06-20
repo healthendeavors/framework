@@ -42,6 +42,11 @@ class Mail extends Facade
      *
      * @return \Illuminate\Support\Testing\Fakes\MailFake
      */
+
+
+
+
+     
     public static function fake()
     {
         static::swap($fake = new MailFake);
